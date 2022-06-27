@@ -1,0 +1,25 @@
+/* Coolors Exported Palette - https://coolors.co/0dab76-139a43-0b5d1e-053b06-000000 */
+
+/* CSV */
+0dab76,139a43,0b5d1e,053b06,000000
+
+/* With # */
+#0dab76, #139a43, #0b5d1e, #053b06, #000000
+
+/* Array */
+["0dab76","139a43","0b5d1e","053b06","000000"]
+
+/* Object */
+{"Green Crayola":"0dab76","Green Pigment":"139a43","Lincoln Green":"0b5d1e","Forest Green Traditional":"053b06","Black":"000000"}
+
+/* Extended Array */
+[{"name":"Green Crayola","hex":"0dab76","rgb":[13,171,118],"cmyk":[92,0,31,33],"hsb":[160,92,67],"hsl":[160,86,36],"lab":[62,-50,17]},{"name":"Green Pigment","hex":"139a43","rgb":[19,154,67],"cmyk":[88,0,56,40],"hsb":[141,88,60],"hsl":[141,78,34],"lab":[56,-53,36]},{"name":"Lincoln Green","hex":"0b5d1e","rgb":[11,93,30],"cmyk":[88,0,68,64],"hsb":[134,88,36],"hsl":[134,79,20],"lab":[34,-37,29]},{"name":"Forest Green Traditional","hex":"053b06","rgb":[5,59,6],"cmyk":[92,0,90,77],"hsb":[121,92,23],"hsl":[121,84,13],"lab":[21,-29,26]},{"name":"Black","hex":"000000","rgb":[0,0,0],"cmyk":[0,0,0,100],"hsb":[0,0,0],"hsl":[0,0,0],"lab":[0,0,0]}]
+
+/* XML */
+<palette>
+  <color name="Green Crayola" hex="0dab76" r="13" g="171" b="118" />
+  <color name="Green Pigment" hex="139a43" r="19" g="154" b="67" />
+  <color name="Lincoln Green" hex="0b5d1e" r="11" g="93" b="30" />
+  <color name="Forest Green Traditional" hex="053b06" r="5" g="59" b="6" />
+  <color name="Black" hex="000000" r="0" g="0" b="0" />
+</palette>
