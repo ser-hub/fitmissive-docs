@@ -40,7 +40,7 @@ DROP TABLE IF EXISTS `fitmissive`.`mondays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`mondays` (
   `monday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`monday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `monday_user_id_fk`
@@ -59,7 +59,7 @@ DROP TABLE IF EXISTS `fitmissive`.`tuesdays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`tuesdays` (
   `tuesday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`tuesday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `tuesday_user_id_fk`
@@ -78,7 +78,7 @@ DROP TABLE IF EXISTS `fitmissive`.`wednesdays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`wednesdays` (
   `wednesday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`wednesday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `wednesday_user_id_fk`
@@ -97,7 +97,7 @@ DROP TABLE IF EXISTS `fitmissive`.`thursdays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`thursdays` (
   `thursday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`thursday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `thursday_user_id_fk`
@@ -116,7 +116,7 @@ DROP TABLE IF EXISTS `fitmissive`.`fridays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`fridays` (
   `friday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`friday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `friday_user_id_fk`
@@ -135,7 +135,7 @@ DROP TABLE IF EXISTS `fitmissive`.`saturdays` ;
 CREATE TABLE IF NOT EXISTS `fitmissive`.`saturdays` (
   `saturday_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` INT UNSIGNED NOT NULL,
-  `split` VARCHAR(800) NOT NULL,
+  `split` VARCHAR(800) NULL,
   PRIMARY KEY (`saturday_id`),
   INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `saturday_user_id_fk`
