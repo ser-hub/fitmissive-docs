@@ -22,9 +22,12 @@ DROP TABLE IF EXISTS `fitmissive`.`users` ;
 
 CREATE TABLE IF NOT EXISTS `fitmissive`.`users` (
   `user_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `username` VARCHAR(255) NOT NULL,
+  `username` VARCHAR(32) NOT NULL,
   `password` VARCHAR(255) NOT NULL,
+  `salt` VARCHAR(32) NOT NULL,
   `email` VARCHAR(255) NOT NULL,
+  `created_at` DATETIME(6) NOT NULL,
+  `fullname` VARCHAR(64) NULL,
   PRIMARY KEY (`user_id`))
 ENGINE = InnoDB;
 
@@ -159,6 +162,19 @@ CREATE TABLE IF NOT EXISTS `fitmissive`.`sundays` (
     REFERENCES `fitmissive`.`users` (`user_id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `fitmissive`.`user_sessions`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `fitmissive`.`user_sessions` ;
+
+CREATE TABLE IF NOT EXISTS `fitmissive`.`user_sessions` (
+  `session_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `user_id` INT UNSIGNED NOT NULL,
+  `hash` VARCHAR(50) NULL,
+  PRIMARY KEY (`session_id`))
 ENGINE = InnoDB;
 
 
