@@ -1,0 +1,19 @@
+<h1>Welcome to Fitmissive</h1>
+                    <p>
+                        Fitmissive is a web application that allows you to track your workouts and share your results with your friends.
+                    </p>
+                    <p>
+                        You can create an account and start tracking your workouts.
+                    </p>
+                    <p>
+                        You can also search for other users and see their workouts.
+                    </p>
+                    <p>
+                        You can also see your own workouts and share them with your friends.
+                    </p>
+                    <p>
+                        You can also see your own profile and edit it.
+                    </p>
+                    <p>
+                        You can also log out.
+                    </p>
